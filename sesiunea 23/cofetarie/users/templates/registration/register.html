@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <form method="post">
+            {% csrf_token %}
+            <div class="panel-heading">Create your account</div>
+            {% for field in form %}
+                <label class="col-md-4 control-label text-right">
+                    {{ field.label_tag }}
+                </label>
+                <div class="col-md-6 col-md-offset-4">
+
+                    {{ field }}
+                </div>
+                {% if field.errors %}
+                    <small class="error">{{ field.errors|striptags }}</small>
+                {% endif %}
+            {% endfor %}
+            <div class="col-md-6 col-md-offset-4">
+
+                <input type="submit" value="Register" class="btn btn-success">
+                <hr>
+                <p> Already have an account?
+                    <a href="{% url 'users:login' %}">Login Here</a>
+                </p>
+            </div>
+        </form>
+    </div>
+{% endblock content %}

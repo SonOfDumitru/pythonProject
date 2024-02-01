@@ -1,0 +1,52 @@
+[
+    {
+        "cuvant_initial": "salut",
+        "limba_de_traducere": "es",
+        "traducere": "holaaaaa"
+    },
+    {
+        "cuvant_initial": "lume",
+        "limba_de_traducere": "en",
+        "traducere": "world"
+    },
+    {
+        "cuvant_initial": "pisica",
+        "limba_de_traducere": "fr",
+        "traducere": "chat"
+    },
+    {
+        "cuvant_initial": "caine",
+        "limba_de_traducere": "en",
+        "traducere": "dog"
+    },
+    {
+        "cuvant_initial": "soare",
+        "limba_de_traducere": "es",
+        "traducere": "sol"
+    },
+    {
+        "cuvant_initial": "carte",
+        "limba_de_traducere": "fr",
+        "traducere": "livre"
+    },
+    {
+        "cuvant_initial": "puteri",
+        "limba_de_traducere": "en",
+        "traducere": "powers"
+    },
+    {
+        "cuvant_initial": "apa",
+        "limba_de_traducere": "es",
+        "traducere": "agua"
+    },
+    {
+        "cuvant_initial": "munte",
+        "limba_de_traducere": "fr",
+        "traducere": "montagne"
+    },
+    {
+        "cuvant_initial": "oras",
+        "limba_de_traducere": "en",
+        "traducere": "city"
+    }
+]

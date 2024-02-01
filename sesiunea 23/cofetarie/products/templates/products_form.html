@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+{% load crispy_forms_filters %}
+
+
+{% block content %}
+    <div class="container mt-4">
+        <h1 class="h1">Add new product</h1>
+    </div>
+    <form method="post">
+        {% csrf_token %}
+        {{ form | crispy }}
+        <input type="submit" value="Add product" class="btn btn-success"/>
+    </form>
+
+{% endblock %}
